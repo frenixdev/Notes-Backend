@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import * as noteService from "../services/note.service";
-import { CreateNoteType, UpdateNoteType } from "../types/note.types";
+import * as noteService from "@/services/note.service";
+import { CreateNoteType, UpdateNoteType } from "@/types/note.types";
 
 const getNotes = async (req: Request, res: Response) => {
   try {

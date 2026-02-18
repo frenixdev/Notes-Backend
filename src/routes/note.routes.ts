@@ -4,7 +4,7 @@ import{
   createNotes,
   updateNotes,
   deleteNotes
-} from "../controllers/note.controller";
+} from "@/controllers/note.controller";
 
 const router = Router();
 router.get("/", getNotes)

@@ -1,8 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { NoteType } from "../types/note.types";
-import { CreateNoteType, UpdateNoteType } from "../types/note.types";
-import { getCurrentDate } from "../utils/date";
+import { NoteType } from "@/types/note.types";
+import { CreateNoteType, UpdateNoteType } from "@/types/note.types";
+import { getCurrentDate } from "@/utils/date";
 
 const filePath = path.join(__dirname, "..","data", "data.json");
 console.log(filePath)
